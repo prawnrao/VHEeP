@@ -1,5 +1,14 @@
 DIS background
 
 
-1.	eP collisions at sufficently high energies such that after the interaction 		the proton breaks up into hadrons.
-2.	DIS led to the discovery that protons ar
+1.	eP collisions at sufficently high energies such that after the interaction the proton breaks up into hadrons.
+
+2.	DIS led to the discovery that protons are composite particles containing 3 valance electrons.
+
+3.	High energy eP collisions are dominated by inelastic scattering.
+
+4.	The hadronic final state consists of many particles and as a result can have a range of values ($W^2 = p_4^2 = (p_2 + q)^2$) unlike elastic scattering where the invariant mass of the final state is the mass of the proton.
+
+5.	This additional degree of freedom requires an extra quantity to specify the event kinematics, whereas elastic scattering can be described by the scattering angle alone. The 2 quantities are chosen from Lorentz Invarient quantities W,x,y,\neu and Q^2
+
+6.	
