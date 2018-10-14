@@ -1,0 +1,10 @@
+1.	HERA was a eP collider that ran from 1997-2007 with a circumfrence of 6.3km. Electrons were accelerated to 27.5 GeV and collided with protons that were accelerated to ~ 900 GeV.
+
+2.	H1 was one of the experiments that was located at HERA and it recorded over 1 million eP DIS collisions with Q^2 > 200 GeV^2.
+
+3.	This allowed for the stucture of the proton to be probed with high precision, at values of Q^2 up to 2 x 10^4 GeV^2 and x below 10^-4.
+
+4.	HERA was able to determine that quarks appear to be point like at scales of uppto Q^2 = 2 x 10^4 GeV^2. If quarks were composite particles then deviations from the Bjorken scaling would be expected when the wavelength of the virtual photon was comparable to the size of the quark.
+
+5.	The data colleced by H1 was consistent with Bjorken scalling and therefore the radius of the quark could be infered to be smaller than 10^-18 m.
+

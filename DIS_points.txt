@@ -1,0 +1,39 @@
+
+
+DIS background
+
+
+1.	eP collisions at sufficently high energies such that after the interaction the proton breaks up into hadrons.
+
+2.	DIS led to the discovery that protons are composite particles containing 3 valance electrons.
+
+3.	High energy eP collisions are dominated by inelastic scattering.
+
+4.	The hadronic final state consists of many particles and as a result can have a range of values ($W^2 = p_4^2 = (p_2 + q)^2$) unlike elastic scattering where the invariant mass of the final state is the mass of the proton.
+
+5.	This additional degree of freedom requires an extra quantity to specify the event kinematics, whereas elastic scattering can be described by the scattering angle alone. The 2 quantities are chosen from Lorentz Invarient quantities W,x,y,nu and Q^2
+
+6.	For inelastic scattering the electron is at sufficiently high energies that its mass can be ignored.
+
+7.	Bjorken x is a Lorentz invarient dimensionless kinetic variable that is important for describing inelastic scattering.
+
+8.	The invarient mass of the final state is always larger than the mass of the proton because at least one baryon has to be formed (qqq) to conserve baryon number. Proton being the lightest baryon will always produce a heavier baryon.
+
+9.	0 ≤ x ≤ 1 as a result of Q^2 ≥ 0 and W^2 ≥ m_p. The value of x hence describes the "elasticity" of the process, and when x = 1; W^2 = m_p^2 which describes a elastic scattering process.
+
+10.	y is another Lorentz invarient quantity that describes the inelasticity which also ranges from 0 to 1.
+
+11.	nu is the energy lost by electron and is sometimes better to use nu than y as it represents energy and not fractional energy.
+
+12.	Any conbination of x, Q^2, y and nu can be used except for y and nu because they are not independent.
+
+13.	HERA was a eP collider that ran from 1997-2007 with a circumfrence of 6.3km. Electrons were accelerated to 27.5 GeV and collided with protons that were accelerated to ~ 900 GeV.
+
+14.	H1 was one of the experiments that was located at HERA and it recorded over 1 million eP DIS collisions with Q^2 > 200 GeV^2.
+
+15.	This allowed for the stucture of the proton to be probed with high precision, at values of Q^2 up to 2 x 10^4 GeV^2 and x below 10^-4.
+
+16.	HERA was able to determine that quarks appear to be point like at scales of uppto Q^2 = 2 x 10^4 GeV^2. If quarks were composite particles then deviations from the Bjorken scaling would be expected when the wavelength of the virtual photon was comparable to the size of the quark.
+
+17.	The data colleced by H1 was consistent with Bjorken scalling and therefore the radius of the quark could be infered to be smaller than 10^-18 m.
+
