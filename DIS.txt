@@ -35,5 +35,5 @@ DIS background
 
 16.	HERA was able to determine that quarks appear to be point like at scales of uppto Q^2 = 2 x 10^4 GeV^2. If quarks were composite particles then deviations from the Bjorken scaling would be expected when the wavelength of the virtual photon was comparable to the size of the quark.
 
-17. The data colleced by H1 was consistent with Bjorken scalling and therefore the radius of the quark could be inferec to be smaller than 10^-18 m.
+17.	The data colleced by H1 was consistent with Bjorken scalling and therefore the radius of the quark could be infered to be smaller than 10^-18 m.
 
