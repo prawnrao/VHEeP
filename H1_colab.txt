@@ -1,3 +1,7 @@
+HERA and H1 
+
+					----MODERN PARTICLE PHYSCIS BOOK----
+
 1.	HERA was a eP collider that ran from 1997-2007 with a circumfrence of 6.3km. Electrons were accelerated to 27.5 GeV and collided with protons that were accelerated to ~ 900 GeV.
 
 2.	H1 was one of the experiments that was located at HERA and it recorded over 1 million eP DIS collisions with Q^2 > 200 GeV^2.
@@ -10,4 +14,5 @@
 
 6. The 2 main components of the H1 detector are the Liquid Argon calorimeter and the lead-scintillating fibre calorimeter
 
-7.	
+							----H1 collab paper----
+

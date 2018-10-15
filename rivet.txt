@@ -1,0 +1,10 @@
+
+								----Rivet----
+
+1. Robust Independent Validation of Experiment and Theory (Rivet) is a toolkit used as a method of validating theory by the use Monte Carlo (MC) event generators.
+
+2. It has a host of various analyses, and has the ability to write your own analyses. 
+
+3. Rivet is used for comparison and development of new theoretical models.
+
+4. It has a framework written in OO C++, with a python interface.
