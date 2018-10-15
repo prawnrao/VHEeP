@@ -18,10 +18,11 @@
 
 8.	One of the challenges of proton driven plasma wakefield acceleration is the current length of proton bunches. Plasmas have a oscillating frequency which needs to be met by the driving freqency to achive resonance. For GeV/m scale the plasma frequency is at the mm scale, whereas proton bunches are much longer (cm scale).
 
-									-12-15-
+									-11-15-
 
 10.	Self modulating instability (SMI) is a mechanism by which bunches of protons can be split into micro bunches, increasing the driving frequency, which is a potential solution to 8.
 
 11.	This instability is caused by the rippling of the beam radius which forms a plasma wave that selectively focuses and defocuses the beam. Given the right parameters the section of the beam in focus can be made to be exactly one plasma wavelenght apart.
 
 12.	SMI is a cost effective and relatively simple method to execute, however it is energy inefficient. As a result it is a good starting point to use in the proof of concept experiment AWAKE at CERN.
+
