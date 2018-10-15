@@ -37,8 +37,6 @@
 
     
 \justify
-\section{Timeline}
-
 \section{Background}
 
 \subsection{Deep Inelastic Scattering}
@@ -48,40 +46,31 @@
 Electron-proton collisions at sufficiently high energies result in the proton breaking up into hadrons, this process is referred to as Deep Inelastic Scattering (DIS). This theory has led to the discovery that protons are composite particles containing three valance quarks. While elastic scattering, where the proton is not broken up, do occur at high energies as well, DIS is the dominant collision type at high energies.
 
 The hadronic final state consists of many particles and as a result its invariant mass can have a range of values unlike elastic scattering where the invariant mass of the final state is the mass of the proton. This range of values leads to an additional degree of freedom which requires an additional quantity to describe the kinematics of the event. The quantities required are chosen from a list of Lorentz invariant quantities x, y, $\nu$, and $Q^2$. 
-
 %Q
 The energies at which DIS occurs are high enough to neglect the mass of the electrons while making predictions, as a result a good approximation of $Q^2$ can be made:
 \begin{equation}
 	Q^2 = 4E_1E_3sin^2\frac{\theta}{2}
 \end{equation}
 which is always positive.
-
 %Bjorken x
 Bjorken $x$ is one of the Lorentz invariant quantities that can be used to describe kinematics of DIS. It is given by the following equation: 
 \begin{equation}
 	x = \frac{Q^2}{Q^2 + W^2 - m_p^2}
 \end{equation}
 where $Q^2$ is the four-momentum transferred, $W^2$ is the invariant mass of the hadronic state, and $m_p^2$ is the rest mass of the proton squared. $W^2 \geq m_p^2$ because for baryon number to be conserved, the hadronic state must contain one baryon and the proton is the lightest baryon. $W^2 - m_p^2 \geq 0$ along with $Q^2 \geq 0$ gives the range $0 \leq x \leq 1$. Bjorken $x$ is a variable that describes the elasticity of the scattering process, and when $x = 1$ the scattering process is elastic and $Q^2 = W^2$.
-
 %y
 The second Lorentz invariant dimensionless quantity used to describe DIS kinetics is the inelasticity $y$ and it is defined as follows:
 \begin{equation}
 	y = 1-\frac{E_3}{E_1}
 \end{equation}
 The inelasticity can also be understood as the fractional loss in electron energy which also has a range $0 \leq y \leq 1$.
-
 %Nu
 In situations where it is more convenient to work with the energy difference rather than the fractional energy lost the Lorentz invariant quantity $\nu$ is used, and it is described as
 \begin{equation}
 	\nu = E_1 - E_3
 \end{equation}
 and can be understood as the absolute energy lost by the electron in the scattering process.
-
 The kinematics of a DIS collision can be described using any combination of $Q^2$, $x$, $y$, and $\nu$ for a fixed centre of mass energy, except for $y$ and $\nu$ because they are not independent of each-other.
-
-\subsection{Plasma Wakefield Acceleration}
-
-
 
 \subsection{HERA Collider and H1 Collaboration}
 
@@ -89,7 +78,26 @@ The kinematics of a DIS collision can be described using any combination of $Q^2
 
 
 
+\subsection{Plasma Wakefield Acceleration}
+
+Plasma wakefield acceleration is a technique for linearly accelerating electrons to sufficiently high energies which have not been achieved before. The biggest advantage this has over radio frequency (RF) acceleration is its ability to reach very high electric fields which allows the set up to be extremely compact. 
+
+The new frontier of colliders are thought to be electron-positron colliders at very high energies, however the main challenge to over come is being unable to accelerate electrons above 100 MeV using RF technology. To excite electrons to TeV scale linear accelerators would need to be tens of Kms long and circular accelerators would need to be hundreds of Kms long with the technology available today. Electrons can be accelerated to TeV scales using a wakefield within tens of metres.
+
+Plasmas are capable of sustaining 10GeV/m potential gradients which is several orders of magnitudes greater than what RF accelerators are capable of achieving. Plasmas support near light speed waves or wakes which is the key mechanism for accelerating electrons. These wakes are made of longitudinal and transverse components, the longitudinal component provides the electrons with the acceleration and the transverse components focuses the electron bunch. The transverse component has a focusing power many orders larger than conventional magnets used for focusing.
+
+Proton driven plasma wakefield acceleration looks like the natural next step for particle colliders to advance, however there is a challange that needs to be overcome: the current length of of proton bunches used to drive the wakefield. Plasmas hvae an oscillating frequency which needs to be met by the driving frequency to achive resonance. Plasmas which can provide GeV/m potential have a wavelength in the mm scale, while proton bunches are much longer, in the cm scale.
+
+Self modulating instability (SMI) is a mechanism by which the driving frequency can be made to match the plasma frequency. SMI splits bunches of protons into micro bunches which reduces the wavelength of the driving proton beam. Under the right conditions the wavelength can be made to exactly equal exactly one plasma wavelenght, achieving resonance. Despite SMI being energy inefficient, it is cost effeceive and relatively simple to execute, as a result it is a good starting point to use in the proof of concept for wakefield acceleration.
+
+
+
+
+
+\section{Timeline}
+
 \end{document}
+
 
 
 
