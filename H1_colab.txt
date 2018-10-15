@@ -8,3 +8,6 @@
 
 5.	The data colleced by H1 was consistent with Bjorken scalling and therefore the radius of the quark could be infered to be smaller than 10^-18 m.
 
+6. The 2 main components of the H1 detector are the Liquid Argon calorimeter and the lead-scintillating fibre calorimeter
+
+7.	

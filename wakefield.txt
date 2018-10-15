@@ -1,0 +1,27 @@
+									-04-09-
+
+1.	Plasma wakeield acceleration is a technique for accelerating electrons to sufficiently high energies. Its advantage is that it is capable of reaching very high electric fileds and as a reult is extremely compact.
+
+2.	To excite a bunch of electrons to 1 TeV the wakefield gradient will need to be maintained for tens of meters, or multiple acceleration stages can be combined.
+
+									-01-14-
+
+3.	New frontier of colliders are thought to be e-e+ colliders at very high energies. Plasma wakefield acceleration hopes to solve the existing problem of being unable to accelerate electrons beyond 100 MeV. 
+
+4.	With current technology linear accelerators would have to be tens of Km (radio frequency breakdown) and circular accelerators would have to be hundreds of Km (synchroton radiation) to achive electrons at TeV range.
+
+5.	Plasmas with several ordered of magnitute less dense than the atmosphere are able to sustain several 10 GeV/m gradients, which is orders of magnitude larger than RF accelerators.
+
+6.	Plasmas support near light speed waves/wakes which are ideal for particle acceleration. The wakefield contains longitudinal and transversal components.
+
+7.	The longitudinal component is what accelerates the bunch of elctrons, and the transverse component is what focuses the bunch of electrons. The transverse component has focusing power orders of magnitute larger than conventional magnets.
+
+8.	One of the challenges of proton driven plasma wakefield acceleration is the current length of proton bunches. Plasmas have a oscillating frequency which needs to be met by the driving freqency to achive resonance. For GeV/m scale the plasma frequency is at the mm scale, whereas proton bunches are much longer (cm scale).
+
+									-12-15-
+
+10.	Self modulating instability (SMI) is a mechanism by which bunches of protons can be split into micro bunches, increasing the driving frequency, which is a potential solution to 8.
+
+11.	This instability is caused by the rippling of the beam radius which forms a plasma wave that selectively focuses and defocuses the beam. Given the right parameters the section of the beam in focus can be made to be exactly one plasma wavelenght apart.
+
+12.	SMI is a cost effective and relatively simple method to execute, however it is energy inefficient. As a result it is a good starting point to use in the proof of concept experiment AWAKE at CERN.
