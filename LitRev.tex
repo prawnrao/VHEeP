@@ -1,11 +1,12 @@
-\documentclass[journal, a4paper,11pt]{IEEEtran}
+\documentclass[journal, a4paper,10pt]{IEEEtran}
 
 \usepackage{graphicx}
 
 %\usepackage{subfigure} 
 \usepackage{setspace}
 
-\usepackage{url}        
+\usepackage{url}    
+\usepackage{lmodern}    
 
 %\usepackage{stfloats} 
 
@@ -14,7 +15,11 @@
 \usepackage{ragged2e}
 \usepackage{graphicx}
 
-\linespread{1.5}
+\linespread{1.3}
+
+\usepackage[nocompress]{cite}
+
+\def\citepunct{,\,}
 
 \begin{document}
 
@@ -36,23 +41,30 @@
 	\vfill
 \end{titlepage}
 
-    
 \justify
 
 \begin{abstract}
 
+This literature study aims to provide context and motivation for the project that is being undertaken. It explores the subjects of deep inelastic scattering, plasma wakefield acceleration and a very high energy electron proton collider 
 \end{abstract}
 
 \section{Introduction}
 
+One of the main limitations of how well the structure of a proton can be understood is the energy with which the proton is probed. This limitation arises from the desig(VHEeP). It contains how the software Rivet is going to be used, as well as a project timeline. 
+n of current accelerater technology. A Very High Energy electron Proton collider (VHEeP) is proposed as the next step forward in high energy physics, allowing the proton to be probed and studied like never before.
+
+The VHEeP is a electron-proton collider and is proposed \cite{VHEeP} to have a 9 TeV centre of mass, which is a factor of 30 greater than the only other electron-proton collider HERA (Hadron Elektron RingAnlage) \cite{HERA}. By probing new kinematic regions, VHEeP has the potential to better understand sections of QCD, as well as search for physics beyond the Standard Model. The collider is propsed to use the existing LHC infrastructure to provide high energy protons. High energy electrons needed for the scattering will be accelerated via a new linear accelerating technique; proton driven plasma wakefield acceleration, the concept of which is currently being proved by the AWAKE \cite{AWAKE1,AWAKE2} experiment at CERN.
+
+\section{Background}
+
 \subsection*{\textbf{Deep Inelastic Scattering}}
 
-Electron-proton collisions at sufficiently high energies result in the proton breaking up into hadrons, this process is referred to as Deep Inelastic Scattering (DIS) shown in Fig.\ref{fig:DIS}. This means that protons are composite particles containing three valance quarks. While elastic scattering, where the proton is not broken up, do occur at high energies as well, DIS is the dominant collision type at high energies.
+Electron-proton collisions at sufficiently high energies result in the proton breaking up into hadrons, this process is referred to as Deep Inelastic Scattering (DIS) shown in Fig.\ref{fig:DIS}. By studying the scattering angles of the electrons the theory of protons being composite particles containing three valance quarks was proved. Elastic scattering, where the proton is not broken up, does occur at high energies as well, DIS is the dominant collision type at high energies.
 
 \begin{figure}[!h]
 	\centering
 		\includegraphics[width =0.4\textwidth]{DIS.png}
-		\caption{Schematic diagram showing deep inelastic scattering of an electron and a proton. The electron exchanges a virtual photon $\gamma *$ with one of the valance quarks of the proton.}
+		\caption{Schematic diagram showing deep inelastic scattering of an electron and a proton. The electron exchanges a virtual photon $\gamma *$ with one of the valance quarks of the proton and scatters with a difference in momentum $p_1 - p_3$.}
 		\label{fig:DIS}
 \end{figure}
 
@@ -69,7 +81,7 @@ Bjorken $x$ is one of the Lorentz invariant quantities that can be used to descr
 	x = \frac{Q^2}{Q^2 + W^2 - m_p^2}
 	\label{eq:x}
 \end{equation}
-where $Q^2$ is the four-momentum transferred, $W^2$ is the invariant mass of the final hadronic state, and $m_p^2$ is the rest mass of the proton squared. $W^2 \geq m_p^2$ because for baryon number to be conserved, the hadronic state must contain at least one baryon and the proton is the lightest baryon. $W^2 \geq m_p^2$ along with $Q^2 \geq 0$ defines the range of $x$ $0 \leq x \leq 1$. Bjorken $x$ is a variable that describes the elasticity of the scattering process, and when $x = 1$ the scattering process is elastic and $Q^2 = W^2$.
+where $W^2$ is the invariant mass of the final hadronic state, and $m_p^2$ is the rest mass of the proton squared. $W^2 \geq m_p^2$ because for baryon number to be conserved, the hadronic state must contain at least one baryon and the proton is the lightest baryon. $W^2 \geq m_p^2$ along with $Q^2 \geq 0$ defines the range of $x$ $0 \leq x \leq 1$. Bjorken $x$ is a variable that describes the elasticity of the scattering process, and when $x = 1$ the scattering process is elastic and $Q^2 = W^2$.
 
 Another Lorentz invariant dimensionless quantity used to describe DIS kinematics is the inelasticity $y$ and it is defined as follows \cite{Modern}:
 \begin{equation}
@@ -78,7 +90,7 @@ Another Lorentz invariant dimensionless quantity used to describe DIS kinematics
 \end{equation}
 The inelasticity can also be understood as the fractional loss in electron energy which also has a range $0 \leq y \leq 1$.
 
-In situations where it is more convenient to work with the energy difference rather than the fractional energy lost the Lorentz invariant quantity $\nu$ is used, and it is described as \cite{Modern}:
+In situations where it is more convenient to work with the energy difference rather than the fractional energy lost, the Lorentz invariant quantity $\nu$ is used, and it is described as \cite{Modern}:
 \begin{equation}
 	\nu = E_1 - E_3,
 	\label{eq:nu}
@@ -88,52 +100,54 @@ The kinematics of a DIS collision can be described using any combination of $Q^2
 
 \subsection*{\textbf{Plasma Wakefield Acceleration}}
 
-Plasma wakefield acceleration is a technique used for linearly accelerating electrons to sufficiently high energies which have not been achieved before. The biggest advantage this has over radio frequency (RF) acceleration is its ability to reach very high electric fields, which allows the set up to be extremely compact \cite{0409}. 
+Plasma wakefield acceleration is a technique used for linearly accelerating electrons to sufficiently high energies which have not been achieved before. AWAKE \cite{AWAKE1,AWAKE2} is a proof concept experiment for accelerating electrons to kinematic regions previously unexplored.
 
-The new frontier of colliders are thought to be electron-positron colliders with very high centre of mass energies, however the main challenge to over come is being unable to accelerate electrons above 100 MeV using RF technology \cite{0114}. To excite electrons to TeV scale linear accelerators would need to be tens of Kms long and circular accelerators would need to be hundreds of Kms long with the technology available today \cite{0114}. Electrons can be accelerated to TeV scales using a wakefield within tens of metres \cite{0409}, as a result plasma wakefield acceleration could be critical for the development of next generation particle colliders.
+The new frontier of particle colliders are thought to be electron-proton colliders with very high centre of mass energies. Radio frequency accelerators can only achive $100$ MV/m electric fields \cite{1115} and as a result to excite electrons to the TeV scale, linear accelerators would need to be tens of kms long and circular accelerators would need to have a circumference of hundreds of kms. 
 
-Plasmas are capable of sustaining $10 GeV/m$ potential gradients which is several orders of magnitudes greater than what RF accelerators are capable of achieving. Plasmas support near light speed waves or wakes which is the key mechanism for accelerating electrons. These wakes are made of longitudinal and transverse components, the longitudinal component provides the electrons with the acceleration and the transverse components focuses the electron bunch. The transverse component has a focusing power many orders larger than conventional magnets used for focusing \cite{0114}.
+Plasmas can support near light speed waves or wakes which can be used for accelerating electrons. These wakes are made of longitudinal and transverse components, the longitudinal component extracts energy from the drivers (protons) and delivers it to the the electrons with the acceleration and the transverse components focuses the electron bunch. The transverse component has a focusing power many orders larger than conventional magnets used for focusing \cite{0114}.
 
-Proton driven plasma wakefield acceleration could be the next step for particle colliders to advance, however there is a challenge that needs to be overcome: the current length of of proton bunches used to drive the wakefield is too long. Plasmas have an oscillating frequency which needs to be met by the driving frequency to achieve resonance. Plasmas which can provide GeV/m potential have a wavelength in the mm scale, while proton bunches are much longer, in the cm scale \cite{0114}.
+Plasmas are capable of sustaining potential gradients with order of magnitude of $10 GV/m$ when traversed by electron bunches \cite{Bl2007} or laser pulses \cite{Mangles2004}. Due to the low stored energy of electon bunches or laser pulses, multiple acceleration stages would be required for electrons to reach very high energies, proton bunches can instead be used to drive the wakefields.   
 
-One solution is self modulating instability (SMI), this is a mechanism by which the driving frequency can be made to match the plasma frequency. SMI splits bunches of protons into micro bunches which reduces the wavelength of the driving proton beam. Under the right conditions the wavelength can be made to exactly equal exactly one plasma wavelength, achieving resonance. Despite SMI being energy inefficient, it is cost effective and relatively simple to execute, as a result it is a good starting point to use in the proof of concept for wakefield acceleration \cite{1115}.
+Proton driven plasma wakefield acceleration could be the next step for particle colliders to advance, however there is a challenge that needs to be overcome: the current length of of proton bunches used to drive the wakefield is too long. Plasmas have an oscillating frequency which needs to be met by the driving frequency to achieve resonance. Plasmas which can provide GeV/m gradients have a wavelength in the mm scale, while proton bunches are much longer, in the cm scale \cite{0114}.
 
-\section{HERA Collider and H1 Collaboration}
+One solution, which is being explored by AWAKE, is self modulating instability (SMI) \cite{255003}, is a mechanism by which the driving frequency can be made to match the plasma frequency. SMI splits bunches of protons into micro bunches which reduces the wavelength of the driving proton beam. Under the right conditions the wavelength can be made to exactly equal exactly one plasma wavelength, achieving resonance. Despite SMI being energy inefficient, it is cost effective and relatively simple to execute, as a result it is a good starting point to use in the proof of concept for wakefield acceleration \cite{1115,0114}.
 
-HERA was the only electron-proton collider and it ran from 1992-2007 and had a circumference of 6.3 km. Electrons were accelerated to $27.5$ GeV and collided with protons that were accelerated to $900$ GeV \cite{Modern}. It operated with a centre of mass energy of $\sqrt{s} = 318$ GeV \cite{1308}.
+Another chalenge of this type of acceleration is the extremely strict requirements on the uniformity of density of the plasma. The paper published by E. {\"O}z and P. Muggli \cite{OZ} studied the required uniformity for Rubidium plasma and concluded that a uniformity of $0.2\%$ or better would be required. This can be achived by filling a vacuum with a neutral gas and ionising it with a laser.  
 
-The H1 collaboration \cite{H1} was one of the experiments that was located at HERA. Ref \cite{H1} presents measurements of jet cross sections in neutral current (NC) DIS for $5.5 \leq Q^2 \leq 80 GeV^2$ with inelasticities $0.2 \leq y \leq 0.6$. 
+\subsection*{\textbf{HERA Collider and H1 Collaboration}}
 
-If quarks were composite particles then deviations from the Bjorken scaling would be expected when the wavelength of the virtual photon was comparable to the size of the quark. As the data colleced by H1 was consistent with Bjorken scalling, the radius of the quark was predicted to be smaller than $10^{-18}m$ \cite{Modern}.
+HERA collider was the only electron-proton collider and it ran from 1992-2007 and had a circumference of 6.3 km. It improved the kinematic region of the proton which could be probed, because previous DIS experiments were conducted with a beam of electrons and a stationary target of protons. Electrons were accelerated to $27.5$ GeV and collided with protons that were accelerated to $900$ GeV \cite{Modern} and it operated with a centre of mass energy of $\sqrt{s} = 318$ GeV \cite{1308}.
 
-\subsection*{\txtbf{Rivet Analysis of H1 Collaboration}}
+The H1 collaboration \cite{H1} was one of the experiments that was located at HERA. Ref \cite{H1} presents measurements of jet cross sections in neutral current (NC) DIS for $5.5 \leq Q^2 \leq 80 GeV^2$ with inelasticities $0.2 \leq y \leq 0.6$. A jet is a narrow cone of hadrons which can be studied to reconstruct the hadronic state produced by the scattering. Neutral current DIS is the scattering mode where the virtual particle exchanged is a photon $\gamma$ or Z\textsuperscript{0} which are both neutrally charged. H1 studied jet production in the Breit frame which always involves at least one strong vertex, which directly probes QCD.
 
-Robust Independent Validation of Experiment and Theory (Rivet) is a toolkit which is used as a method of validating theory with the use of Monte Carlo (MC) event generators. It has a host of various analyses, with the capability of writing your own. 
+If quarks were composite particles then deviations from the Bjorken scaling would be expected when the wavelength of the virtual photon was comparable to the size of the quark. As the data colleced by H1 was consistent with Bjorken scalling, the radius of the quark is predicted to be smaller than $10^{-18}m$ \cite{Modern}.
 
-One of the main aims is to write a complete Rivet analysis for the H1 paper \cite{H1}. By writing a Rivet routine it would be possible run theory cross checks and extrapolate, to some extent, the theory for very high energies. This extrapolation could provide a comparison to the experimental data of very high energy DIS collisions, and is a good starting point for testing the differences between DIS at low and high energy frames.
+
+\subsubsection*{Rivet Analysis}
+
+Robust Independent Validation of Experiment and Theory (Rivet) \cite{Rivet} is a class library written in C++ which is used as a method of validating high energy physics Monte Carlo (MC) event generators. It has a host of various analyses, with the capability of writing your own. 
+
+One of the main aims is to write a complete Rivet analysis for the H1 paper \cite{H1}. By writing a Rivet routine it would be possible to validate theory by comparing the data collected by H1 and the data generated by Rivet. This can be done using the {\fontfamily{lmtt}\selectfont compare-histos} command in rivet, which accepts multiple AIDA files and compares them with the MC dataset.
+
+and extrapolate, to some extent, the theory for very high energies. This extrapolation could provide a comparison to the experimental data of very high energy DIS collisions, and is a good starting point for testing the differences between DIS at low and high energy frames.
 
 
 \section{Timeline}
-The tentative timeline for project:
+\noindent This is the tentative project outline with the key milestones:
 \begin{enumerate}
+	\item Background reading and writing the literature study$\sim$ 3 weeks
 
+	\item Importing data from H1 collaboration into Rivet $\sim$ 5 weeks
 
-\item Literature review and background reading $\sim$ 3 weeks
+	\item Crosschecking H1 DIS theory using Rivet Analysis and data$\sim$ 8 weeks
 
-\item Import Data into Rivet $\sim$ 5 weeks
+	\item Using Rivet Analysis of H1 to make predictions of DIS at very high energies $\sim$ 4 weeks 
 
-\item Crosscheck H1 DIS theory using Rivet Analysis $\sim$ 8 weeks
-
-\item Using H1 Rivet Analysis to predict DIS at very high energies $\sim$ 4 weeks 
-
-\item Looking beyond the H1 analysis $\sim$ 3 weeks
+	\item Looking beyond the H1 analysis $\sim$ 3 weeks
 \end{enumerate}
-
 
 \bibliographystyle{ieeetr}
 \bibliography{bib.bib}
-
-
 
 \end{document}
 
